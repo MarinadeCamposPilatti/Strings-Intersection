@@ -17,6 +17,10 @@ class Main {
       for(int x = 4; x<palasepar.length;x++){
           if(!list1.contains(paljun2)){
             paljun2 = paljun2 + palasepar[x];
+            if(x==palsepar.leng){
+              return "not possible";
+            }
+            return "not possible";
           }else{
             paljun2 = paljun2 + palasepar[x];
             if(x==palasepar.length){
@@ -28,6 +32,9 @@ class Main {
       for(int i = 0; i<palasepar.length;i++){
           if(!list1.contains(paljun)){
             paljun = paljun + palasepar[i];
+            if(i==palasepar.length){
+              return "not possible"
+              }
           }else{
             paljun = paljun + palasepar[i];
             if(i>2 && i < 4){
