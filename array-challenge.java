@@ -20,7 +20,6 @@ class Main {
             if(x==palsepar.leng){
               return "not possible";
             }
-            return "not possible";
           }else{
             paljun2 = paljun2 + palasepar[x];
             if(x==palasepar.length){
